@@ -28,3 +28,11 @@ def bubble_sort_by(input_array)
   end
   input_array
 end
+
+p bubble_sort_by(["hi", "hello", "hey",]) { |first, second|
+  first.length - second.length
+}
+
+p bubble_sort_by(%w(my name is Maurice and my Partner is Raul)) { |first, second|
+  first.length - second.length
+}
